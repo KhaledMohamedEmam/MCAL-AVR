@@ -1,0 +1,17 @@
+void Timer0_voidInit();
+void Timer0Normal_voidGetFunc(void(*Argument)(void));
+void Timer0_Preload(u8 A_u8PreloadValue);
+void Timer0CTC_voidGetFunc(void(*Argument)(void));
+void Timer0_set_ocr(u8 A_u8SetValue);
+void timer0_FPWMInit();
+void Timer1_FPWM_vInit();
+void Set_Ocr1A(u16 A_u16Value);
+void Set_ICR1(u16 A_u16Value);
+void servo_rotate(u16 angle);
+void Timer1_ICU_Init(void);
+void Timer1_ICU_SetEdge(u8 trigger);
+void Timer1_ICUDisable(void);
+u16 getIcrValue(void);
+void IcuEnable(void);
+void Timer1_Preload(u8 A_u8PreloadValue);
+void SetIcrCallBack(void*(funccc)(void));

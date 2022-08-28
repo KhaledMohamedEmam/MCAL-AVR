@@ -1,0 +1,12 @@
+#define stop 0
+#define ps1 1
+#define ps8 2
+#define ps64 3
+#define ps256 4
+#define ps1024 5
+#define Normal 0b00000000
+#define CTC 0b00001000
+#define ps_Mask 0b11111000
+#define Mode_Mask 0b10110111
+#define rising 1
+#define falling 0
